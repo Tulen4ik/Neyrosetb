@@ -16,14 +16,18 @@ namespace ConsoleApp1
                 ret = ran.Next(-100, 100);
                 array[i] = ret;
                 numbers.Add(ret);
-                Console.WriteLine(array[i] + " " + numbers[i]);
-                Console.ReadKey ();
+                
             }
             int[,] numbers1 = new int[5,5];
             numbers1 [1, 2] = 0;
-            console.writeline ("DOROVA maks");
-            console.writeline ("Wow");
-            
-        }
+            for (int i = 0; i < 140; i++)
+            {
+                Console.WriteLine(array[i] + " " + numbers[i]);
+                Console.ReadKey();
+            }
+
+
+
+            }
     }
 }
