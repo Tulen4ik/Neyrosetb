@@ -21,7 +21,7 @@ namespace ConsoleApp1
             }
             int[,] numbers1 = new int[5,5];
             numbers1 [1, 2] = 0;
-            console.writeline ("DOROVA");
+            console.writeline ("DOROVA maks");
             
         }
     }
